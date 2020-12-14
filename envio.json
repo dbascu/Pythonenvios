@@ -1,0 +1,44 @@
+{
+  "_coments " : "fields: if used replace default bbdd table field names",
+  "mysql" : {
+    "host" : "localhost",
+    "user" : "admin_t1",
+    "password" : "60606060",
+    "bbdd" : "admin_t1",
+    "table" : "cabe2020",
+    "fields" : {
+      "id" : "factura",
+      "sender" : "",
+      "subject" : "",
+      "subjects" : "",
+      "email" : "email_facturacion",
+      "fitxers" : "",
+      "vars" : "'subida=F:nombre'",
+      "envio_id" : "id_envio_factura",
+      "fecha_envio" : "fecha_envio_factura",
+      "status_envio" : "status_envio_factura"
+    }
+  },
+  "mail" : {
+    "host" : "mail.tinaneteges.com",
+    "user" : "info@tinaneteges.com",
+    "password" : "Sergi2012"
+  },
+  "_coments2 " : "group : group mails with same email if have attachs send all attachs an use subjects (plural),sender,subject,subjetcs if especieds replace table fields",
+  "_coments3 " : "path,extension if espcified the field fitxers is only the name of the file",
+  "_coments4" : "sendbccsender if especied sends bcco of evey mail to sender, repeat is es repeticion",
+  "_coments5" : "codi of then envio_id",
+  "id" : 1,
+  "repeat" : true,
+  "group" : true,
+  "variables" : "",
+  "sendbbcsender" : false,
+  "subject" : "Subject",
+  "subjects" : "Subjects",
+  "sender" : "info@tinaneteges.com",
+  "path" : "z:\\asdsadsasad",
+  "extension" : "pdf",
+  "variable" : "",
+  "plantillahtml" : "<html>\n  <head>\n\n    <meta http-equiv=\"content-type\" content=\"text\/html; charset=UTF-8\">\n  <\/head>\n  <body>\n    <p>Bon dia<\/p>\n    <p>Degut al increment en els costos derivats de la neteja ens hem trobat en la necessitat\n    de modificar  l’import de la neteja que la nostra empresa realitza. <\/p>\n    <p><br>\n    <\/p>\n<p>L'increment serà d'un <#subida#> respecte a l'any 2019.\n<\/p>\n    <p><br>\n    <\/p>\n<p>Aquesta modificació tindrà vigència a partir del dia 1 de gener del 2020.\n<\/p>\n<p>Per a qualsevol informació o aclariment, podeu contestar aquest email o per telèfon.\n<\/p>\n    <p><br>\n    <\/p>\n    <div class=\"moz-signature\">-- <br>\n      <meta http-equiv=\"Content-Type\" content=\"text\/html; charset=UTF-8\">\n      <title>Re: model 347<\/title>\n      <span lang=\"ES\">Atentament,<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">TINA NETEGES S.L.<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">C.Santander 22 Baixos <o:p><\/o:p><\/span><span\n        lang=\"ES\">17005 GIRONA<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span lang=\"ES\">Tel\n        872 267 241 mòbil 651 897 963<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><a\n          href=\"mailto:tina@tinaneteges.com\" moz-do-not-send=\"true\">tina@tinaneteges.com<\/a><o:p><\/o:p><\/span><span\n        lang=\"ES\"><br>\n        <a href=\"http:\/\/www.tinaneteges.com\" moz-do-not-send=\"true\">www.tinaneteges.com<\/a><o:p><\/o:p><\/span><span\n        lang=\"ES\"><\/span><span lang=\"ES\"><\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">\"Aquest correu electrònic\n        conté informació confidencial el contingut del qual es troba<\/span><span\n        lang=\"ES\"> protegit per llei. Qualsevol persona diferent a la\n        seva destinatària té prohibida la seva<\/span> <span lang=\"ES\"><\/span><span\n        lang=\"ES\">reproducció, ús, divulgació o impressió total o\n        parcial. Si heu rebut aquest missatge per<\/span>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">error, notifiqui\n        immediatament al remitent, esborrant el missatge original\n        juntament<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">amb els\n        seus fitxers annexos. Gràcies. \"<\/span><br>\n      <br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span\n        lang=\"ES\">Este e-mail contiene información confidencial cuyo\n        contenido se<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">encuentra\n        protegido por Ley. Cualquier persona distinta a su destinataria\n        tiene<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">prohibida\n        su reproducción, uso, divulgación o impresión total o parcial.\n        Si ha<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">recibido\n        este mensaje por error, notifíquelo de inmediato al remitente,\n        borrando el<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">mensaje\n        original juntamente con sus ficheros anexos. Gracias.<o:p><\/o:p><\/span>\n      <p class=\"MsoNormal\"><span lang=\"ES\"><o:p> <\/o:p><\/span><\/p>\n      <span lang=\"ES\"><\/span> <\/div>\n  <\/body>\n<\/html>\n",
+  "plantillahtmls" : "<html>\n  <head>\n\n    <meta http-equiv=\"content-type\" content=\"text\/html; charset=UTF-8\">\n  <\/head>\n  <body>\n    <p>Bon dia<\/p>\n    <p>Degut al increment en els costos derivats de la neteja ens hem trobat en la necessitat\n    de modificar  l’import de la neteja que la nostra empresa realitza. <\/p>\n    <p><br>\n    <\/p>\n<p>L'increment serà d'un <#subida#> respecte a l'any 2019.\n<\/p>\n    <p><br>\n    <\/p>\n<p>Aquesta modificació tindrà vigència a partir del dia 1 de gener del 2020.\n<\/p>\n<p>Per a qualsevol informació o aclariment, podeu contestar aquest email o per telèfon.\n<\/p>\n    <p><br>\n    <\/p>\n    <div class=\"moz-signature\">-- <br>\n      <meta http-equiv=\"Content-Type\" content=\"text\/html; charset=UTF-8\">\n      <title>Re: model 347<\/title>\n      <span lang=\"ES\">Atentament,<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">TINA NETEGES S.L.<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">C.Santander 22 Baixos <o:p><\/o:p><\/span><span\n        lang=\"ES\">17005 GIRONA<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span lang=\"ES\">Tel\n        872 267 241 mòbil 651 897 963<\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><a\n          href=\"mailto:tina@tinaneteges.com\" moz-do-not-send=\"true\">tina@tinaneteges.com<\/a><o:p><\/o:p><\/span><span\n        lang=\"ES\"><br>\n        <a href=\"http:\/\/www.tinaneteges.com\" moz-do-not-send=\"true\">www.tinaneteges.com<\/a><o:p><\/o:p><\/span><span\n        lang=\"ES\"><\/span><span lang=\"ES\"><\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">\"Aquest correu electrònic\n        conté informació confidencial el contingut del qual es troba<\/span><span\n        lang=\"ES\"> protegit per llei. Qualsevol persona diferent a la\n        seva destinatària té prohibida la seva<\/span> <span lang=\"ES\"><\/span><span\n        lang=\"ES\">reproducció, ús, divulgació o impressió total o\n        parcial. Si heu rebut aquest missatge per<\/span>\n      <span lang=\"ES\"><\/span><span lang=\"ES\">error, notifiqui\n        immediatament al remitent, esborrant el missatge original\n        juntament<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">amb els\n        seus fitxers annexos. Gràcies. \"<\/span><br>\n      <br>\n      <span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span lang=\"ES\"><\/span><span\n        lang=\"ES\">Este e-mail contiene información confidencial cuyo\n        contenido se<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">encuentra\n        protegido por Ley. Cualquier persona distinta a su destinataria\n        tiene<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">prohibida\n        su reproducción, uso, divulgación o impresión total o parcial.\n        Si ha<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">recibido\n        este mensaje por error, notifíquelo de inmediato al remitente,\n        borrando el<\/span> <span lang=\"ES\"><\/span><span lang=\"ES\">mensaje\n        original juntamente con sus ficheros anexos. Gracias.<o:p><\/o:p><\/span>\n      <p class=\"MsoNormal\"><span lang=\"ES\"><o:p> <\/o:p><\/span><\/p>\n      <span lang=\"ES\"><\/span> <\/div>\n  <\/body>\n<\/html>\n"
+}
